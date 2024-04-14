@@ -32,11 +32,11 @@ Included are the following files:
 	- README.TXT
 
 To run this program:
-	- First ensure that psycopg2 is installed: type the following into command prompt
+  - First ensure that psycopg2 is installed: type the following into command prompt
 
-		- pip install psycopg2
+		pip install psycopg2
 
-	- Open HEALTHFITNESSAPP.py and ensure that in connect_to_db() the credentials are correct.
+  - Open HEALTHFITNESSAPP.py and ensure that in connect_to_db() the credentials are correct.
   - Run the application by navigating to the directory containing the source code and typing into the command prompt:
 
-        python HEALTHFITNESSAPP.py
+        	python HEALTHFITNESSAPP.py
