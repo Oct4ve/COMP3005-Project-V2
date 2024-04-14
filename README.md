@@ -40,3 +40,7 @@ To run this program:
   - Run the application by navigating to the directory containing the source code and typing into the command prompt:
 
         	python HEALTHFITNESSAPP.py
+
+Here is the link to the YouTube demo of this application:
+
+		https://youtu.be/Kx-a3chntC8
