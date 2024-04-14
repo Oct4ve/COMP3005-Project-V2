@@ -1910,12 +1910,6 @@ def deal_with_staff(id):
                     print("Invalid Input")
                 return
             elif choice3 == "4":
-                choice4 = input("Type the ID of the bill to pay: ")
-                if choice4.isdigit():
-                    update_bill_paid_status(int(choice4), True)
-                else:
-                    print("Invalid Input")
-            elif choice3 == "5":
                 return
             else:
                 print("Invalid Input")
@@ -1939,6 +1933,11 @@ def deal_with_staff(id):
             return
 
         elif choice2 == "4":
+            choice3 = input("Type the ID of the bill to pay: ")
+            if choice3.isdigit():
+                update_bill_paid_status(int(choice3), True)
+            else:
+                print("Invalid Input")
             return
         else:
             print("Invalid Input")
